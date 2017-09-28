@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Grand+Hotel|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel|Mr+De+Haviland|Roboto');
+
 
 
 /* Body */
@@ -6,7 +7,6 @@
 body {
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
 }
 
 
@@ -18,8 +18,10 @@ li {
 
 .logo {
     color: white;
-    font-family: 'Grand Hotel', cursive;
-    margin: 0 auto;
+    font-family: 'Mr De Haviland', cursive;    
+    font-size: 18pt;
+    margin-left: 8px;
+    margin-top: 2px;
 }
 
 nav {
@@ -29,28 +31,74 @@ nav {
     display: flex;
     justify-content: space-between;
     padding-top: 2px;
-    font-size: 12pt;
+    font-size: 12git ipt;
 }
 
 .nav-links {
     display: flex;
     height: 100%;
-    width: 70%;
+    width: 25%;
     justify-content: space-around;
-    align-items: center;
+    margin-top: 6px;
 }
 
 li a {
     text-decoration: none;
     color: white;
+    font-weight: 100;
 }
 
 
 /* Cover/Home */
 
-.cover-pic-container {
-    height: 75vh;
-    width: 100%;
-    background-image: url('')
+.cover-container {
+    height: 80vh;
+    width: 78vw;
+    margin: 0 auto;
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
+.cover-title, .cover-links, .portfolio, .contact {
+    height: 38vh;
+    width: 38vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-title {
+    border-bottom: 2px solid tomato;
+    border-right: 2px solid tomato;
+}
+
+.cover-links {
+    border-left: 2px solid tomato;
+    border-bottom: 2px solid tomato;
+}
+
+.portfolio {
+    border-top: 2px solid tomato;
+    border-right: 2px solid tomato;
+}
+
+.contact {
+    border-top: 2px solid tomato;
+    border-left: 2px solid tomato;
+}
+
+.content-container {
+    height: 85%;
+    width: 85%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 
+    0 3px 6px rgba(0,0,0,0.23);
+    transition: 0.3s ease-in-out;
+}
+
+.content-container:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 
+    0 6px 6px rgba(0,0,0,0.23);
+}
