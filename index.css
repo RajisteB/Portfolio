@@ -31,8 +31,9 @@ nav {
     display: flex;
     justify-content: space-between;
     padding-top: 2px;
-    font-size: 12git ipt;
+    font-size: 12pt;
 }
+
 
 .nav-links {
     display: flex;
@@ -51,11 +52,26 @@ li a {
 
 /* Cover/Home */
 
-.cover-container {
-    height: 80vh;
-    width: 78vw;
+.home-container {
+    height: 100%;
+    width: 98%;
     margin: 0 auto;
-    margin-top: 4%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-container {
+    width: 30%;
+    height: 80vh;
+
+}
+
+.cover-container {
+    height: 100%;
+    width: 58vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -63,8 +79,8 @@ li a {
 }
 
 .cover-title, .cover-links, .portfolio, .contact {
-    height: 38vh;
-    width: 38vw;
+    height: 30vh;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,13 +92,12 @@ li a {
 }
 
 .cover-links {
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .portfolio {
-    border-top: 1px solid black;
-    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
 }
 
 .contact {
@@ -110,10 +125,11 @@ li a {
 }
 
 #resume h2 {
-    font-size: 50pt;
+    font-size: 40pt;
     font-weight: 200;
     top: 60%;
-    margin-left: 20%;
+    text-align: right;
+    padding-right: 2%;
     text-decoration: underline;
 }
 
@@ -125,9 +141,10 @@ li a {
 }
 
 #portfolio h2 {
-    font-size: 50pt;
+    font-size: 40pt;
     font-weight: 200;
-    margin-left: 10%;
+    text-align: right;
+    padding-right: 2%;
     top: 50%;
     text-decoration: underline;
 }
@@ -140,9 +157,20 @@ li a {
 }
 
 #contact h2{
-    font-size: 50pt;
+    font-size: 40pt;
     font-weight: 200;
-    margin-left: 20%;
-    top: 60%;
+    text-align: right;
+    padding-right: 2%;
     text-decoration: underline; 
+}
+
+.cover-title {
+    font-weight: 100;
+    line-height: 140%;
+    color: rgba(0,0,0,0.30);
+    font-size: 12pt;
+}
+
+.cover-title h3 span {
+    color: rgba(0,0,0,0.7)
 }
