@@ -71,23 +71,23 @@ li a {
 }
 
 .cover-title {
-    border-bottom: 2px solid tomato;
-    border-right: 2px solid tomato;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .cover-links {
-    border-left: 2px solid tomato;
-    border-bottom: 2px solid tomato;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .portfolio {
-    border-top: 2px solid tomato;
-    border-right: 2px solid tomato;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .contact {
-    border-top: 2px solid tomato;
-    border-left: 2px solid tomato;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
 }
 
 .content-container {
@@ -101,4 +101,48 @@ li a {
 .content-container:hover {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 
     0 6px 6px rgba(0,0,0,0.23);
+}
+
+#resume {
+    background-image: url('https://images.pexels.com/photos/479453/pexels-photo-479453.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+    background-size: cover;
+    opacity:0.6;
+}
+
+#resume h2 {
+    font-size: 50pt;
+    font-weight: 200;
+    top: 60%;
+    margin-left: 20%;
+    text-decoration: underline;
+}
+
+#portfolio {
+    background-image: url('https://images.pexels.com/photos/442575/pexels-photo-442575.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+    background-size: cover;
+    background-position: bottom center;
+    opacity:0.6;
+}
+
+#portfolio h2 {
+    font-size: 50pt;
+    font-weight: 200;
+    margin-left: 10%;
+    top: 50%;
+    text-decoration: underline;
+}
+
+#contact {
+    background-image: url('https://images.pexels.com/photos/249324/pexels-photo-249324.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+    background-size: cover;
+    background-position: bottom center;
+    opacity:0.6;
+}
+
+#contact h2{
+    font-size: 50pt;
+    font-weight: 200;
+    margin-left: 20%;
+    top: 60%;
+    text-decoration: underline; 
 }
