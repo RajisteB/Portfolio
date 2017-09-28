@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel|Roboto');
+
+
+/* Body */
+
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+
+/* Navigation */
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    color: white;
+    font-family: 'Grand Hotel', cursive;
+    margin: 0 auto;
+}
+
+nav {
+    background: black;
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+    font-size: 12pt;
+}
+
+.nav-links {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Cover/Home */
+
+.cover-pic-container {
+    height: 75vh;
+    width: 100%;
+    background-image: url('')
+}
+
