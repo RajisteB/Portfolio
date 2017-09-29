@@ -242,7 +242,6 @@ li a {
 .setA {
     display: flex;
     height: 80%;
-    justify-content: center;
     align-items: flex-end;
     background-image: url('https://images.pexels.com/photos/14676/pexels-photo-14676.png?w=1260&h=750&auto=compress&cs=tinysrgb');
     background-size: cover;
@@ -264,7 +263,7 @@ li a {
 
 .proj-name {
     margin-bottom: 4px;
-    text-align: center;
+    margin-left: 5px;
 }
 
 .proj-name h5 {
@@ -420,4 +419,41 @@ form > textarea {
         width: 70%;
         font-size: 10pt;
     }
+}
+
+/* Project Screenshots */
+
+#set1,
+#set2,
+#set3,
+#set4,
+#set5,
+#set6 {
+    background-size: cover;
+}
+
+#set1 {
+    background-image: url('images/BJ21.png');
+}
+
+#set2 {
+    background-image: url('images/Okurio.png');
+}
+
+#set3 {
+    background-image: url('images/Stretto.png');
+}
+
+#set4 {
+    background-image: url('images/Crypto.png');
+    background-position: center;
+}
+
+#set5 {
+    background-image: url('https://images.pexels.com/photos/428323/pexels-photo-428323.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+    background-position: center center;
+}
+
+#set6 {
+    background-image: url('images/tictactoe.png');
 }
