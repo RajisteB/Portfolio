@@ -46,22 +46,29 @@
         </div>
         <div class="cover-container">
             <div class="portfolio">
-                <div class="content-container" id="portfolio">
-                    <h2>PROJECTS</h2>
-                </div>
+                <a id="portfolio" class="content-container" style="display:inline-block" href="#projects">
+                    <div>
+                        <h2>PROJECTS</h2>
+                    </div>
+                </a>
             </div>
             <div class="cover-links">
-                <div class="content-container" id="resume">
-                    <h2>RESUME</h2>
-                </div>
+                <a class="content-container" id="resume" style="display:inline-block" href="#resumes">
+                    <div>
+                        <h2>RESUME</h2>
+                    </div>
+                </a>
             </div>
             <div class="contact">
-                <div class="content-container" id="contact">
-                    <h2>CONTACT</h2>
-                </div>
+                <a class="content-container" id="contact" href="#contactme">
+                    <div>
+                        <h2>CONTACT</h2>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
+    <br>
     <h2 id="projects">Projects</h2>
     <div id="border"></div>
     <div class="project-container">
@@ -103,7 +110,7 @@
                 <div class="info">
                     <div class="proj-links">
                         <button onclick="location.href='https://github.com/RajisteB/Occurio'">GITHUB</button>
-                        <button onclick="location.href='https://rajisteb.github.io/Occurio/'">DEMO</button>
+                        <button>DEMO N/A</button>
                     </div>
                 </div>
             </div>
@@ -198,7 +205,7 @@
     <div class="resume-container">
         <h2 id="resumes">Resume</h2>
         <div id="border"></div>
-        <button>Click for Resume PDF</button>
+        <input type=button value="Click for Resume PDF" onclick="location.href='assets/RajisteBResume.pdf'" />
     </div>
     <div class="contact-container">
         <h2 id="contactme">Contact</h2>

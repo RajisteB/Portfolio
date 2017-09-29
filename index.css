@@ -141,6 +141,7 @@ li a {
     width: 85%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 
     0 3px 6px rgba(0,0,0,0.23);
+    color: black;
     transition: 0.3s ease-in-out;
 }
 
@@ -309,7 +310,7 @@ li a {
     margin-top: 5%;
 }
 
-.resume-container button {
+.resume-container input {
     margin: 5% 0 0 2%;
     background: black;
     color: white;
@@ -349,12 +350,12 @@ form > textarea {
     
     .cover-container {
         width: 95%;
-        margin-top: 5%;
+        margin-top: 25%;
     }
     
     .about-container {
         width: 90%;
-        padding-top: 30%;
+        padding-top: 10%;
     }
     
     nav {
