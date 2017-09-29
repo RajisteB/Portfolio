@@ -6,6 +6,7 @@
 
 body {
     margin: 0 auto;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -66,7 +67,12 @@ li a {
 .about-container {
     width: 30%;
     height: 80vh;
+}
 
+.about-container p,
+.about-container h2,
+.about-container h3 {
+    font-weight: 100;
 }
 
 .cover-container {
@@ -136,7 +142,7 @@ li a {
 #portfolio {
     background-image: url('https://images.pexels.com/photos/442575/pexels-photo-442575.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
     background-size: cover;
-    background-position: bottom center;
+    background-position: center center;
     opacity:0.6;
 }
 
@@ -173,4 +179,62 @@ li a {
 
 .cover-title h3 span {
     color: rgba(0,0,0,0.7)
+}
+
+/* About Me */
+
+#border {
+    width: 100%;
+    border: 3px solid black;
+}
+
+/* Projects */
+
+.project-container {
+    border: 2px solid blue;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 75%;  
+    height: 300vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.proj {
+    border: 2px solid red;
+    width: 90%;
+    height: 15%
+}
+
+/* Responsive */
+
+@media screen and (max-width: 500px ){
+    .home-container {
+        flex-direction: column;
+    }
+
+    .cover-container {
+        width: 95%;
+        margin-top: 5%;
+    }
+
+    .about-container {
+        width: 90%;
+        margin-top: 15%;
+    }
+
+    nav {
+        padding-bottom: 2px;
+    }
+
+    nav .logo {
+        display: none;
+    }
+    
+    .nav-links {
+        width: 100%;
+        margin-right: 6%;
+    }
 }
