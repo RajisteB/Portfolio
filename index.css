@@ -241,7 +241,7 @@ li a {
 
 .setA {
     display: flex;
-    height: 75%;
+    height: 80%;
     justify-content: center;
     align-items: flex-end;
     background-image: url('https://images.pexels.com/photos/14676/pexels-photo-14676.png?w=1260&h=750&auto=compress&cs=tinysrgb');
@@ -256,15 +256,47 @@ li a {
     height: 38%;
 }
 
-.setB h4,
-.setB p {
+.setB h4 {
     margin-left: 5px;
     font-size: 10pt;
+    text-align: center;
 }
 
 .proj-name {
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.proj-name h5 {
+    background: black;
+    color: white;
+    padding: 4px;
+    font-style: italic;
+    font-size: 8pt;
+    border-radius: 5%;
+    padding-bottom: 2px;
+    display: inline;
+}
+
+.proj-name h2 {
     color: white;
     font-weight: 100;
+    display: inline;
+}
+
+.proj-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.proj-links button {
+    margin-top: 4%;
+    background: green;
+    padding: 5px;
+    width: 25%;
+    border: none;
+    color: white;
 }
 
 .info {
@@ -274,7 +306,7 @@ li a {
 /* Resume */
 
 .resume-container {
-    width: 90%;
+    width: 100%;
     margin-top: 5%;
 }
 
