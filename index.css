@@ -8,6 +8,7 @@ body {
     margin: 0 auto;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    padding: 0px;
 }
 
 
@@ -27,12 +28,14 @@ li {
 
 nav {
     background: black;
-    margin-top: 0;
+    top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding-top: 2px;
     font-size: 12pt;
+    position: fixed;
+    height: 5%;
 }
 
 
@@ -67,10 +70,16 @@ li a {
 .about-container {
     width: 40%;
     height: 80vh;
+    padding: 10px;
 }
 
 .about-container span {
     color: tomato;
+}
+
+.icon-links i {
+    font-size: 11pt;
+    margin: 1%;
 }
 
 .about-container p,
@@ -78,6 +87,13 @@ li a {
 .about-container h3 {
     font-weight: 100;
     margin-left: 3px;
+}
+
+.skills i {
+    color: tomato;
+    font-weight: 100;
+    font-size: 10pt;
+    margin-left: 2px;
 }
 
 .cover-container {
@@ -280,5 +296,34 @@ li a {
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 
         0 3px 6px rgba(0,0,0,0.23);
         transition: 0.3s ease-in-out;
+    }
+
+    .resume-container {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20%;
+    }
+
+    .resume-container button {
+        margin-top: 5%;
+        background: black;
+        color: white;
+        border-radius: 2%;
+        font-size: 14pt;
+    }
+
+    .contact-container {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20%;
+        text-align: center;
+    }
+    
+    form > input,
+    form > textarea {
+        border: 1px solid black;
+        width: 70%;
+        font-size: 10pt;
     }
 }

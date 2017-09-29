@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://use.fontawesome.com/ee3ff7e5cc.js"></script>
     <link rel="stylesheet" href="index.css" type="text/css">
     <title>Portfolio</title>
 </head>
@@ -13,19 +14,34 @@
             <li>R. Bennin</li>
         </div>
         <div class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a id="contact-info" href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#resumes">Resume</a></li>
+            <li><a id="contact-info" href="#contactme">Contact</a></li>
         </div>
     </nav>
-    <div class="home-container">
+    <div class="home-container" id="home">
         <div class="about-container">
             <h1>Rajiste <span>Bennin</span></h1>
             <div id="border"></div>
             <h3>Fullstack Web Dev</h3>
+            <div class="icon-links">
+                <i class="fa fa-github fa-2x" aria-hidden="true"> GitHub</i>
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"> LinkedIn</i>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, pariatur aliquam neque quas nulla sed dicta quae expedita! Consectetur libero odio recusandae dolor animi rem quas mollitia laboriosam, quam perferendis ad, ut eius inventore alias distinctio possimus. Corporis cumque commodi suscipit, possimus, fugit maxime unde veniam debitis vero quas aut.</p>
-            <div class="icon-links"></div>
+            <div class="skills">
+                <i class="fa fa-check" aria-hidden="true">HTML</i>
+                <i class="fa fa-check" aria-hidden="true">CSS</i>
+                <i class="fa fa-check" aria-hidden="true">Javascript</i>
+                <i class="fa fa-check" aria-hidden="true">Node.js</i>
+                <i class="fa fa-check" aria-hidden="true">Express</i>
+                <i class="fa fa-check" aria-hidden="true">React</i>
+                <i class="fa fa-check" aria-hidden="true">PostGres</i>
+                <i class="fa fa-check" aria-hidden="true">SQL</i>
+                <i class="fa fa-check" aria-hidden="true">Ruby</i>
+                <i class="fa fa-check" aria-hidden="true">Rails</i>
+            </div>
         </div>
         <div class="cover-container">
             <div class="portfolio">
@@ -45,88 +61,105 @@
             </div>
         </div>
     </div>
-        <div class="project-container">
-            <h2>Projects</h2>
-            <div id="border"></div>
-            <div id="set1" class="proj">
-                <div class="setA">
-                    <div class="proj-name">
-                        <h2>Project Name</h2>
-                    </div>
-                </div>
-                <div class="setB">
-                    <h4>Project</h4>
-                    <div class="info">
-                        <p>Info</p>
-                    </div>
+    <div class="project-container">
+        <h2 id="projects">Projects</h2>
+        <div id="border"></div>
+        <div id="set1" class="proj">
+            <div class="setA">
+                <div class="proj-name">
+                    <h2>Project Name</h2>
                 </div>
             </div>
-            <div id="set2" class="proj">
-                <div class="setA">
-                    <div class="proj-name">
-                        <h2>Project Name</h2>
-                    </div>
-                </div>
-                <div class="setB">
-                    <h4>Project</h4>
-                    <div class="info">
-                        <p>Info</p>
-                    </div>
-                </div>
-            </div>
-            <div id="set3" class="proj">
-                <div class="setA">
-                    <div class="proj-name">
-                        <h2>Project Name</h2>
-                    </div>
-                </div>
-                <div class="setB">
-                    <h4>Project</h4>
-                    <div class="info">
-                        <p>Info</p>
-                    </div>
-                </div>
-            </div>
-            <div id="set4" class="proj">
-                <div class="setA">
-                    <div class="proj-name">
-                        <h2>Project Name</h2>
-                    </div>
-                </div>
-                <div class="setB">
-                    <h4>Project</h4>
-                    <div class="info">
-                        <p>Info</p>
-                    </div>
-                </div>
-            </div>
-            <div id="set5" class="proj">
-                <div class="setA">
-                    <div class="proj-name">
-                        <h2>Project Name</h2>
-                    </div>
-                </div>
-                <div class="setB">
-                    <h4>Project</h4>
-                    <div class="info">
-                        <p>Info</p>
-                    </div>
-                </div>
-            </div>
-            <div id="set6" class="proj">
-                <div class="setA">
-                    <div class="proj-name">
-                        <h2>Project Name</h2>
-                    </div>
-                </div>
-                <div class="setB">
-                    <h4>Project</h4>
-                    <div class="info">
-                        <p>Info</p>
-                    </div>
+            <div class="setB">
+                <h4>Project</h4>
+                <div class="info">
+                    <p>Info</p>
                 </div>
             </div>
         </div>
-    
+        <div id="set2" class="proj">
+            <div class="setA">
+                <div class="proj-name">
+                    <h2>Project Name</h2>
+                </div>
+            </div>
+            <div class="setB">
+                <h4>Project</h4>
+                <div class="info">
+                    <p>Info</p>
+                </div>
+            </div>
+        </div>
+        <div id="set3" class="proj">
+            <div class="setA">
+                <div class="proj-name">
+                    <h2>Project Name</h2>
+                </div>
+            </div>
+            <div class="setB">
+                <h4>Project</h4>
+                <div class="info">
+                    <p>Info</p>
+                </div>
+            </div>
+        </div>
+        <div id="set4" class="proj">
+            <div class="setA">
+                <div class="proj-name">
+                    <h2>Project Name</h2>
+                </div>
+            </div>
+            <div class="setB">
+                <h4>Project</h4>
+                <div class="info">
+                    <p>Info</p>
+                </div>
+            </div>
+        </div>
+        <div id="set5" class="proj">
+            <div class="setA">
+                <div class="proj-name">
+                    <h2>Project Name</h2>
+                </div>
+            </div>
+            <div class="setB">
+                <h4>Project</h4>
+                <div class="info">
+                    <p>Info</p>
+                </div>
+            </div>
+        </div>
+        <div id="set6" class="proj">
+            <div class="setA">
+                <div class="proj-name">
+                    <h2>Project Name</h2>
+                </div>
+            </div>
+            <div class="setB">
+                <h4>Project</h4>
+                <div class="info">
+                    <p>Info</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="resume-container">
+        <h2 id="resumes">Resume</h2>
+        <div id="border"></div>
+        <button>Click for Resume PDF</button>
+    </div>
+    <div class="contact-container">
+        <h2 id="contactme">Contact</h2>
+        <div id="border"></div>
+        <br>
+        <form>
+            <label for="fname">First Name</label><br><br>
+            <input type="text" name="name" placeholder=" Your name..."><br><br>
+            <label for="email">Email</label><br><br>
+            <input type="text" name="email" placeholder=" Your email..."><br><br><br>
+            <textarea name="subject" placeholder=" Send a message..." style="height: 250px;"></textarea><br><br>
+            <input type="submit" value="submit"><br><br>
+        </form>
+    </div>
 </body>
 </html>
